@@ -1,0 +1,22 @@
+Mise en place du changelog.
+Correction du problème de latence avec google chrome.
+Masquage du "Referer" pour les liens sortant (via une redirection). http://www.whatismyreferer.com/
+Correction d'un bug avec le scrolling (quand la minimap était cachée, il était impossible de scroll avec la molette).
+Amélioration du mode fullscreen sur chrome mobile.
+Amélioration de la liste des connectés.
+Amélioration de l'input (par rapport au c/c et drag'n'drop de texte non "plaintext"). 
+Ajout de  Ho + [TAB].
+Amélioration de la sélection des messages à éditer (avec la  flèche du haut et du bas) quand les messages font plusieurs lignes.
+Correction d'un bug suite à la maj #6.
+Amélioration de l'autoscroll sur mobile.
+Ajout de la gestion du drag'n'drop des fichiers (textes et images). Les images sont envoyées sur imgur automatiquement, pour les fichiers leur contenu est envoyé sur gist.
+Amélioration côté client de l'obtention de la libraire socket-io.js (pour qu'il soit pris directement côté serveur nodejs et non côté cache (apache)).
+Commande "/private" (temporaire) cache le texte des messages dans "précédents messages".
+Correction de plusieurs bogues/détails en rapport au drag'n'drop.
+Si vous copiez une image (CTRL + V) qui est dans votre presse-papier le chat vous propose de l'uploader.
+Si un message dépasse 400 caractères, le chat vous propose de l'uploader sur gist (un peu comme un pastebin).
+Amélioration du c/c d'élément d'une page HTML (pour un meilleur affichage, séparation d'élément par un saut de ligne ou un espace).
+Les UserScripts c/c dans le chat qui sont uploadés sur Gist, sont nommés automatiquement "paste.user.js", pour faciliter l'installation. (Détection de "// ==UserScript==" en début de fichier).
+La limite d'édition passe de 2 minutes à 4 minutes.
+Les gists sont maintenant privés pour éviter le référencement Google.
+Correction de 2 bugs de la scrollbar lorsqu'on passait en fullscreen : L'un décalé la scrollbar vers le haut, l'autre n'adapté pas la position de la scrollbar.

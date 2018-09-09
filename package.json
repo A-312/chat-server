@@ -1,0 +1,18 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Application de communication.",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.10.2",
+    "moment": "^2.8.3",
+    "socket.io": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "GuimDev",
+  "license": "ISC"
+}
